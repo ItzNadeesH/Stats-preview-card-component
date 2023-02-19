@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="visually-hidden">Stats Preview Card Component</h1>
+      <div
+        class="stats-component card-container entrance-animation"
+        id="stats-component-container"
+      >
+        <div class="hero-container">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="images/image-header-desktop.jpg"
+            />
+            <img
+              class="header-image"
+              src="images/image-header-mobile.jpg"
+              alt="picture_of_three_women_working_on_thier_laptops"
+            />
+          </picture>
+        </div>
+        <div class="text-container">
+          <h2>
+            Get <span class="insights">insights</span> that help your business
+            grow.
+          </h2>
+          <p class="main-paragraph">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="stat-containers">
+            <div class="stat-container">
+              <h3 class="stat">10k+</h3>
+              <span class="stat-heading">COMPANIES</span>
+            </div>
+            <div class="stat-container">
+              <span class="stat">314</span>
+              <span class="stat-heading">TEMPLATES</span>
+            </div>
+            <div class="stat-container last-container">
+              <span class="stat">12M+</span>
+              <span class="stat-heading">QUERIES</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+<!--
+
+  
+
+  10k+ companies
+  314 templates
+  12m+ queries-->
